@@ -9,6 +9,9 @@
     .top_contents_left {
         width: 100%;
     }
+    .top_contents_left a {
+        background-color: #17a4f1;
+    }
     .top_contents_right {
         display: none;
     }
@@ -63,5 +66,15 @@
 
     .contact_contents {
         width: 95%;
+    }
+    .input_area {
+        display: block;
+    }
+    .input_area label:first-child {
+        margin-right: 0;
+        margin-bottom: 4%;
+    }
+    .input_area label {
+        width: 100%;
     }
 }
