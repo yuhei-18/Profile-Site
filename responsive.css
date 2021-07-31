@@ -1,0 +1,67 @@
+@media screen and (max-width: 480px) {
+    header {
+        display: none;
+    }
+
+    .top_contents {
+        width: 95%
+    }
+    .top_contents_left {
+        width: 100%;
+    }
+    .top_contents_right {
+        display: none;
+    }
+
+    .about_contents {
+        width: 95%;
+    }
+    .about_contents_flex {
+        display: block;
+    }
+    .about_contents_left {
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 5%;
+    }
+    .about_contents_left img {
+        width: 100%;
+        margin: 0;
+    }
+    .about_contents_right {
+        width: 100%;
+    }
+    .about_contents_right p {
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .skill_area {
+        width: 95%;
+    }
+    .skill_contents {
+        display: block;
+    }
+    .skill_block {
+        width: 100%;
+        margin: 0 0 10%;
+    }
+    .skill_block:first-child {
+        margin-right: 0;
+    }
+    .skill_block:last-child {
+        margin-left: 0;
+    }
+    .skill_icon {
+        padding: 2% 0;
+    }
+    .skill_description .ruby,
+    .skill_description .python {
+        margin-top: 0;
+    }
+
+    .contact_contents {
+        width: 95%;
+    }
+}
